@@ -1,0 +1,10 @@
+model: "yolo11n.pt"
+tracker: "bytetrack.yaml"
+conf_threshold: 0.3
+iou_threshold: 0.5
+classes: [0]
+dataset_path: "data/MOT17/train"
+sequences:
+  - "MOT17-02-FRCNN"
+  - "MOT17-04-FRCNN"
+  - "MOT17-05-FRCNN"
